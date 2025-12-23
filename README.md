@@ -91,43 +91,8 @@ npm run server
 
   <hr />
 
-  <h2>📸 Project Screenshots</h2>
-
-  <h3>Landing Page</h3>
-  <img src="https://github.com/user-attachments/assets/9e1ef65f-ca21-4615-9820-f8f00204ad85" width="800" />
-
-  <h3>Shop Page</h3>
-  <img src="https://github.com/user-attachments/assets/e2935c47-9b53-4d26-9221-05451102260c" width="800" />
-
-  <h3>Single Product Page</h3>
-  <img src="https://github.com/user-attachments/assets/815eaa98-150d-4847-9339-5140745c66ba" width="800" />
-
-  <h3>Cart Page</h3>
-  <img src="https://github.com/user-attachments/assets/164bcf3d-7984-4cc4-8f30-978069737ef6" width="800" />
-
-  <h3>Login Page</h3>
-  <img src="https://github.com/user-attachments/assets/4903e803-9253-4212-be4d-cfa14e010fb3" width="800" />
-
-  <h3>Register Page</h3>
-  <img src="https://github.com/user-attachments/assets/a2c5f5cb-d03f-46c8-b43a-edd3876e3001" width="800" />
-
-  <h3>User Profile Page</h3>
-  <img src="https://github.com/user-attachments/assets/5786d46b-29a8-44c2-ad52-3a794ce954c9" width="800" />
-
-  <h3>Order History Page</h3>
-  <img src="https://github.com/user-attachments/assets/57259617-6c4e-4efd-84ad-961ee0a9b9e4" width="800" />
-
-  <h3>Single Order Page</h3>
-  <img src="https://github.com/user-attachments/assets/f2abffa8-9af3-478f-a888-ed3fbd007315" width="800" />
-
-  <h3>Checkout Page</h3>
-  <img src="https://github.com/user-attachments/assets/0dc47027-1bf7-4b96-bff2-73867d6892a9" width="800" />
-
-  <h3>Search Page</h3>
-  <img src="https://github.com/user-attachments/assets/a62c71be-5424-4bf5-a660-352d507764a5" width="800" />
-
-  <hr />
-
+  
+ 
   <h2>📚 Learning Outcomes</h2>
   <ul>
     <li>React component architecture</li>
