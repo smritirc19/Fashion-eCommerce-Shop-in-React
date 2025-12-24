@@ -131,24 +131,25 @@ const SingleProduct = () => {
           <div>
             {/* drowdown items */}
             <Dropdown dropdownTitle="Description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
-              quos deleniti, mollitia, vitae harum suscipit voluptatem quasi, ab
-              assumenda accusantium rem praesentium accusamus quae quam tempore
-              nostrum corporis eaque. Mollitia.
+              Luxury clothing crafted with exceptional fabrics and refined detailing, 
+              designed to embody elegance and sophistication. Each piece reflects timeless style, 
+              comfort, and superior craftsmanship, making it perfect for those who appreciate quality and 
+              understated luxury.
             </Dropdown>
 
             <Dropdown dropdownTitle="Product Details">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ad
-              at odio illo, necessitatibus, reprehenderit dolore voluptas ea
-              consequuntur ducimus repellat soluta mollitia facere sapiente.
-              Unde provident possimus hic dolore.
+              Crafted with premium-quality fabric, this luxury garment offers a perfect balance of elegance and comfort.
+              Designed with a refined silhouette and meticulous attention to detail, 
+              it delivers a sophisticated look suitable for both formal and elevated casual wear.The fabric 
+              feels soft against the skin while ensuring durability and a flawless finish.
+              Thoughtful tailoring enhances the fit, providing effortless style and confidence throughout the day. Ideal for those who appreciate timeless fashion and superior craftsmanship.
             </Dropdown>
 
             <Dropdown dropdownTitle="Delivery Details">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ad
-              at odio illo, necessitatibus, reprehenderit dolore voluptas ea
-              consequuntur ducimus repellat soluta mollitia facere sapiente.
-              Unde provident possimus hic dolore.
+              We ensure secure and timely delivery of all orders with premium packaging to maintain product quality. 
+              Orders are carefully processed and dispatched within 1–3 business days.Standard delivery typically takes 3–7 business days,
+              depending on your location.You will receive tracking details once your order has been shipped,
+              allowing you to monitor your delivery at every step.
             </Dropdown>
           </div>
         </div>
