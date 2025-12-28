@@ -247,7 +247,13 @@ const Checkout = () => {
                     >
                       <option>United States</option>
                       <option>Canada</option>
-                      <option>Mexico</option>
+                      <option>India</option>
+                      <option>UAE</option>
+                      <option>Russia</option>
+                      <option>Korea</option>
+                      <option>United Kingdom</option>
+                      <option>France</option>
+                      <option>Switzeland</option>
                     </select>
                   </div>
                 </div>
@@ -477,7 +483,7 @@ const Checkout = () => {
 
                       <div className="flex flex-1 items-end justify-between pt-2">
                         <p className="mt-1 text-sm font-medium text-gray-900">
-                          ${product?.price}
+                          Rs{product?.price}
                         </p>
 
                         <div className="ml-4">
@@ -494,25 +500,25 @@ const Checkout = () => {
                 <div className="flex items-center justify-between">
                   <dt className="text-sm">Subtotal</dt>
                   <dd className="text-sm font-medium text-gray-900">
-                    ${subtotal}
+                    Rs{subtotal}
                   </dd>
                 </div>
                 <div className="flex items-center justify-between">
                   <dt className="text-sm">Shipping</dt>
                   <dd className="text-sm font-medium text-gray-900">
-                    ${subtotal ? 5 : 0}
+                    Rs{subtotal ? 5 : 0}
                   </dd>
                 </div>
                 <div className="flex items-center justify-between">
                   <dt className="text-sm">Taxes</dt>
                   <dd className="text-sm font-medium text-gray-900">
-                    ${subtotal ? subtotal / 5 : 0}
+                    Rs{subtotal ? subtotal / 5 : 0}
                   </dd>
                 </div>
                 <div className="flex items-center justify-between border-t border-gray-200 pt-6">
                   <dt className="text-base font-medium">Total</dt>
                   <dd className="text-base font-medium text-gray-900">
-                    ${subtotal ? subtotal + 5 + subtotal / 5 : 0}
+                    Rs{subtotal ? subtotal + 5 + subtotal / 5 : 0}
                   </dd>
                 </div>
               </dl>

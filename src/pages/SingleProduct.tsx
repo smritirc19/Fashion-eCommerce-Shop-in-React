@@ -82,7 +82,7 @@ const SingleProduct = () => {
               <p className="text-base text-secondaryBrown">
                 {formatCategoryName(singleProduct?.category || "")}
               </p>
-              <p className="text-base font-bold">${ singleProduct?.price }</p>
+              <p className="text-base font-bold">Rs{ singleProduct?.price }</p>
             </div>
           </div>
           <div className="flex flex-col gap-2">
@@ -91,7 +91,6 @@ const SingleProduct = () => {
                 { id: "xs", value: "XS" },
                 { id: "sm", value: "SM" },
                 { id: "m", value: "M" },
-                { id: "lg", value: "LG" },
                 { id: "xl", value: "XL" },
                 { id: "2xl", value: "2XL" },
               ]}
@@ -106,7 +105,7 @@ const SingleProduct = () => {
                 { id: "red", value: "RED" },
                 { id: "blue", value: "BLUE" },
                 { id: "white", value: "WHITE" },
-                { id: "rose", value: "ROSE" },
+                { id: "brown", value: "BROWN" },
                 { id: "green", value: "GREEN" },
               ]}
               value={color}
@@ -125,7 +124,7 @@ const SingleProduct = () => {
           <div className="flex flex-col gap-3">
             <Button mode="brown" text="Add to cart" onClick={handleAddToCart} />
             <p className="text-secondaryBrown text-sm text-right">
-              Delivery estimated on the Friday, July 26
+              Delivery estimated on the Friday, January 26
             </p>
           </div>
           <div>
